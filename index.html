@@ -6,15 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/output.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: cyan;
+        }
 
+        .rectangle {
+            width: 200px;
+            height: 100px;
+            background-color: cyan;
+        }
+
+        .circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: cyan;
+        }
+    </style>
 </head>
 
-<body class="p-20 bg-amber-950 text-white">
-    <p id="para" class="p-[10px] bg-cyan-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit id eius animi
-        tempora?
-        Dolorem molestiae
-        earum unde recusandae iusto soluta temporibus expedita obcaecati? Architecto iure tempore asperiores. Suscipit,
-        minima ab!</p>
+<body class="p-20 bg-amber-950 text-white space-y-6">
+    <div id="box" class=""></div>
+
+    <div class="space-x-4">
+        <button id="square" class="bg-cyan-600 px-4 py-2 rounded">Square</button>
+        <button id="circle" class="bg-cyan-600 px-4 py-2 rounded">Circle</button>
+        <button id="rectangle" class="bg-cyan-600 px-4 py-2 rounded">Rectangle</button>
+    </div>
+
     <script src="app.js"></script>
 </body>
 
