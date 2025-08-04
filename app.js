@@ -8,7 +8,7 @@
 // 
 // 
 // 
-// 
+// EVENT REVISION           EVENT REVISION         EVENT REVISION      EVENT REVISION
 // let box=document.getElementById("box")
 // let squarebtn=document.getElementById("square");
 // let circlebtn=document.getElementById("circle");
@@ -39,5 +39,25 @@
 //         default:
 //             console.log('helooooooooooooooooooooooo');
 //             break;
+//     }
+// }
+// function funrev(el){
+//     el.src=""
+// }
+// function fun(el){
+//     el.src=""
+// }
+// form validation of input tag 
+// function fun(){
+//     let input=document.getElementById("input");
+//     let p=document.getElementById("p")
+//     let val=input.value;
+//     if(val.length>11){
+//     //    val=val.slice(0,11)
+//     //    input.value=val;
+//     p.innerHTML="error"
+//     }
+//     else{
+//         p.innerHTML=''
 //     }
 // }
