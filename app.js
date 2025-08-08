@@ -9,6 +9,9 @@
 // // 
 // // 
 // // EVENT REVISION           EVENT REVISION         EVENT REVISION      EVENT REVISION
+
+
+
 // // let box=document.getElementById("box")
 // // let squarebtn=document.getElementById("square");
 // // let circlebtn=document.getElementById("circle");
@@ -61,7 +64,15 @@
 // //         p.innerHTML=''
 // //     }
 // // }
+
+
+
+
 // IMAGE SLIDER            IMAGE SLIDER                IMAGE SLIDER 
+
+
+
+
 // const imageLinks = [
 //   "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d", // Mountain
 //   "https://images.unsplash.com/photo-1498050108023-c5249f4df085", // Laptop workspace
@@ -96,7 +107,13 @@
 // // Initial load
 // uploadImage();
 
+
+
 // // Event bindings
+
+
+
+
 // nextBtn.addEventListener("click", showNext);
 // prevBtn.addEventListener("click", showPrev);
 
@@ -105,3 +122,24 @@
 // Array.from(ps).forEach(p => {
 //     p.style.color="red"
 // });
+   
+
+
+// arrow functions 
+
+
+
+
+// let arr=()=>{
+//     console.log('hello arrow');
+// }
+// arr()
+// let db= (num)=> num**2;
+// console.log(db(10));
+
+
+
+// CHILD NODES       CHILD NODES         CHILD NODES           CHILD NODES
+// let  para3=document.getElementById("para3");
+// console.dir(para3.parentNode.childNodes[1]);
+
